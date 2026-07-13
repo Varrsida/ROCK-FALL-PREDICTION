@@ -1,0 +1,43 @@
+body{
+    background:#f4f6f9;
+    font-family:Arial;
+}
+
+.container{
+    width:450px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h1{
+    text-align:center;
+    color:#2563eb;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+#result{
+    margin-top:20px;
+    text-align:center;
+}

@@ -1,0 +1,256 @@
+/* ==============================
+   AI ROCKFALL PREDICTION SYSTEM
+   Dashboard CSS
+================================ */
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Body */
+body {
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+
+/* ==============================
+   SIDEBAR
+================================ */
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #0f172a;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 25px;
+}
+
+
+/* Sidebar Heading */
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+
+/* Sidebar Links */
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+/* Link Hover */
+.sidebar a:hover {
+    background-color: #334155;
+    color: #38bdf8;
+}
+
+
+/* ==============================
+   MAIN CONTENT
+================================ */
+
+.main-content {
+
+    margin-left: 250px;
+    padding: 25px;
+
+}
+
+
+/* Page Heading */
+
+.main-content h1 {
+
+    font-size: 28px;
+    margin-bottom: 25px;
+
+}
+
+
+/* ==============================
+   TOP CARDS
+================================ */
+
+.card-container {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+
+    background-color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+
+
+.card h3 {
+
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+
+.card p {
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+/* ==============================
+   STATUS BOX
+================================ */
+
+.status-box {
+
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+
+.status-box h2 {
+
+    margin-bottom: 15px;
+
+}
+
+
+/* Status Text */
+
+.safe {
+
+    color: green;
+    font-weight: bold;
+
+}
+
+
+.warning {
+
+    color: orange;
+    font-weight: bold;
+
+}
+
+
+.danger {
+
+    color: red;
+    font-weight: bold;
+
+}
+
+
+/* ==============================
+   TABLE
+================================ */
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+
+}
+
+
+table th {
+
+    background-color: #0f172a;
+    color: white;
+    padding: 12px;
+
+}
+
+
+table td {
+
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+/* ==============================
+   BUTTONS
+================================ */
+
+button {
+
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #0369a1;
+
+}
+
+
+/* ==============================
+   RESPONSIVE DESIGN
+================================ */
+
+@media(max-width:768px){
+
+    .sidebar{
+
+        width:100%;
+        height:auto;
+        position:relative;
+
+    }
+
+
+    .main-content{
+
+        margin-left:0;
+
+    }
+
+
+    .card-container{
+
+        justify-content:center;
+
+    }
+
+}

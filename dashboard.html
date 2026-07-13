@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rockfall Prediction Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- Sidebar -->
+
+<div class="sidebar">
+
+    <h2>Rockfall AI</h2>
+
+    <a href="/dashboard">Dashboard</a>
+    <a href="#">Prediction</a>
+    <a href="#">Alerts</a>
+    <a href="#">Reports</a>
+    <a href="/">Logout</a>
+
+</div>
+
+
+
+<!-- Main Content -->
+
+<div class="main-content">
+
+
+    <h1>
+        AI-Based Rockfall Prediction Dashboard
+    </h1>
+
+
+
+    <!-- Cards -->
+
+    <div class="card-container">
+
+
+        <div class="card">
+
+            <h3>Total Predictions</h3>
+
+            <p>120</p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <h3>Safe Zones</h3>
+
+            <p class="safe">85</p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <h3>Warning Areas</h3>
+
+            <p class="warning">25</p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <h3>Danger Areas</h3>
+
+            <p class="danger">10</p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- Status Section -->
+
+
+    <div class="status-box">
+
+
+        <h2>Current Mine Status</h2>
+
+
+        <p>
+            Monitoring Status:
+            <span class="safe">
+                SAFE
+            </span>
+        </p>
+
+
+        <p>
+            AI Model:
+            Active
+        </p>
+
+
+        <p>
+            Sensor Connection:
+            Online
+        </p>
+
+
+    </div>
+
+
+
+
+
+    <!-- Prediction Table -->
+
+
+    <div class="status-box">
+
+
+        <h2>Recent Predictions</h2>
+
+
+        <table>
+
+
+            <tr>
+
+                <th>Date</th>
+                <th>Location</th>
+                <th>Risk Level</th>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>13-07-2026</td>
+                <td>Zone A</td>
+                <td class="safe">Low</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>13-07-2026</td>
+                <td>Zone B</td>
+                <td class="warning">Medium</td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>13-07-2026</td>
+                <td>Zone C</td>
+                <td class="danger">High</td>
+
+            </tr>
+
+
+
+        </table>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
